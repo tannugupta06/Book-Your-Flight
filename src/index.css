@@ -1,0 +1,244 @@
+.logo {
+  width: 60px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 15px;
+
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(65, 130, 222);
+  top: 0px;
+
+  /* margin-bottom: 100px; */
+  /* margin: auto; */
+  padding: 0px;
+  margin-top: 10px;
+
+  box-sizing: border-box;
+  display: flex;
+
+  overflow: hidden;
+
+
+}
+
+.nav_box {
+  margin-left: 300px;
+ display: flex;
+ flex-direction: column;
+}
+
+.nav_box_home{
+  margin-left: 60%;
+ 
+}
+
+ul {
+  top: 0px;
+  padding: 0px;
+  list-style-type: none;
+  float: right;
+  /* margin-left: 70%; */
+  
+}
+
+li {
+  top: 0px;
+  padding: 20px;
+  display: inline-block;
+
+}
+
+ul li a {
+  padding: 10px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid white;
+  ;
+
+}
+
+
+ul li a:hover {
+  padding: 20px;
+  background-color: aliceblue;
+  text-decoration: none;
+  color: rgb(59, 173, 204);
+  border-right: 1px solid white;
+  ;
+}
+
+.header {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.imageText {
+  position: absolute;
+  top: 340px;
+  left: 300px;
+  font-style: italic;
+  color: rgb(35, 36, 46);
+  animation-name: imageText;
+  animation-duration: 5s;
+  /* animation-timing-function: linear; */
+
+}
+
+@keyframes imageText {
+
+  0% {
+    left: 50px;
+    top: 100px;
+  }
+
+  /* 
+  25% {
+      left: 100px;
+       top:100px; 
+  } */
+  /* 
+  50% {
+      
+      left: 200px;
+       top:100px; 
+  } */
+
+  100% {
+
+    left: 300px;
+    /* top:0px; */
+  }
+
+}
+
+.Table {
+  /* background-color: rgb(65, 130, 222); */
+  border: 2px rgb(58, 55, 103);
+}
+
+table,
+tr,
+td {
+  width: 90%;
+  border-collapse: separate;
+  table-layout: fixed;
+  border: 2px solid rgb(23, 23, 67);
+}
+
+.container {
+  width: 50%;
+  border-radius: 5px;
+  background-color: rgb(65, 130, 222);
+  padding: 20px;
+}
+
+.booking-container {
+  width: 80%;
+  border-radius: 5px;
+  background-color: rgb(65, 130, 222);
+  padding: 20px;
+}
+
+input[type=text],
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid rgb(58, 55, 103);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+input[type=email] {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid rgb(58, 55, 103);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=tel] {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid rgb(58, 55, 103);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=date] {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid rgb(58, 55, 103);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=password] {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid rgb(58, 55, 103);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+button {
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+}
+
+.aboutus {
+  background-color: rgb(65, 130, 222);
+  /* border: 2px solid rgb(58, 55, 103); */
+}
+
+p {
+  color: white;
+}
+
+.main {
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: rgb(65, 130, 222);
+  padding: 20px;
+}
+
+.box2{
+  width: 200px;
+  height: 80px;
+  padding: auto;
+  margin: auto;
+}
+
+.container-history {
+  width: 50%;
+  margin: auto;
+  padding: auto;
+  border-radius: 5px;
+  background-color: rgb(55, 103, 170);
+  padding: 20px;
+}
