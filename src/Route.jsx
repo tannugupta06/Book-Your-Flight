@@ -66,6 +66,8 @@ const routes = [
 ]
 
 
-const router = createBrowserRouter(routes);
+const router = createBrowserRouter(routes, {
+    basename: "/Book-Your-Flight"
+});
 
 export default router
