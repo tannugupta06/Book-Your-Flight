@@ -19,7 +19,7 @@ function UserProfilePage(params) {
             <NavBar></NavBar>
         </div>
             
-            <div className="header"><img src="public\header.jpg" height="350px" width="1368px" />
+            <div className="header"><img src="public/header.jpg" height="350px" width="1368px" />
                 <div class="imageText">
                     <h1>Book your Flight</h1>
                     <h2> Your dream Destinations are waiting for you...</h2>

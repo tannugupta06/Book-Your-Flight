@@ -15,7 +15,7 @@ function NavBar() {
     return (
         <nav>
         <div className="logo">
-            <img src="public\logo.webp" height="100%" width="100%" />
+            <img src="public/logo.webp" height="100%" width="100%" />
 
         </div>
         <div className="box2"> <h2>{
